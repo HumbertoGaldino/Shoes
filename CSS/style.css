@@ -1,0 +1,175 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    list-style: none;
+}
+
+html,body{
+	width: 100%;
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    height: 123px;
+    background-color: #FFFFFF;
+    color:#777777;
+}
+
+header .container .flexWrap{
+    width: 100%;
+    height: 123px;
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    width: 20%;
+    height: 100%;
+    background-image: url('../images/shoes-logo.png');
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+header .container .flexWrap .menu{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+header .container .flexWrap .menu ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 20px 0;
+}
+
+header .container .flexWrap .menu ul li{
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+.bannerPromo{
+    width: 100%;
+}
+
+section.models{
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+section.models h1{
+    font-size: 60px;
+    margin: 50px 0;
+}
+
+section.models .container .modelsPic{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+section.shoesCast{
+    width: 100%;
+    height: 635px;
+    background-color: #C2185B;
+    text-align: center;
+    
+}
+
+section.shoesCast h1{
+    font-size: 54px;
+    color:#FFFFFF;
+    padding: 30px 0;
+}
+
+section.shoesCast .container{
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.shoes{
+    width: 260px;
+    height: 388px;
+    background-color: #FFFFFF;
+    text-align: left;
+}
+
+.shoes p{
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+section.vitrine{
+    padding: 100px 0;
+}
+
+section.vitrine .container{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+section.vitrine .container .infoVitrine h1{
+    font-size: 39px;
+}
+
+section.vitrine .container .infoVitrine .button{
+    width: 403px;
+    height: 99px;
+    background-color:#C2185B;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 40px 0;
+    font-size: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    width: 100%;
+    height: 250px;
+    background-color: #C2185B;
+    padding: 30px;
+    color: #FFFFFF;
+}
+
+footer .container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+footer .container .logo p{
+    max-width: 255px;
+}
+
+footer .container .categorias{
+    width: 200px;
+    
+}
+
+footer .container .institucional{
+    width: 200px;
+    justify-self: self-end;
+}
