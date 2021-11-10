@@ -156,8 +156,7 @@ footer{
 footer .container{
     width: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 footer .container .logo p{
@@ -172,4 +171,9 @@ footer .container .categorias{
 footer .container .institucional{
     width: 200px;
     justify-self: self-end;
+}
+
+footer .container .menus{
+    display: flex;
+
 }
